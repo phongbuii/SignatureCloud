@@ -14,7 +14,6 @@ const App = () => {
   const [isThemeDark, setIsThemeDark] = React.useState(true);
   const [isDefaultSystem, setIsDefaultSystem] = React.useState(false);
   useEffect(() => {
-    SplashScreen.show();
     setLangInApp();
   }, []);
   useEffect(() => {
